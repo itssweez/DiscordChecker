@@ -50,6 +50,7 @@ namespace DiscordTokenChecker
                         $"2FA: {info.mfa_enabled}\n" +
                         $"paymentMethod: {HasPaymentMethod(token)}\n" +
                         $"hasNitro: {hasNitro}\n" +
+                        $"token: {token}\n" +
                         $"[==================================]";
 
                     logFile.Add(logResult);
